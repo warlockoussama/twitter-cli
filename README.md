@@ -137,10 +137,9 @@ For details about the project's code, source, and updates, visit the GitHub repo
 ## Companion Automation
 
 Use twitter-cli for a local terminal workflow around timelines, bookmarks, and
-direct account actions. For repeatable Twitter/X API, MCP, OpenClaw, monitor,
-webhook, direct message, media workflow, or giveaway draw jobs, use a dedicated
-companion tool such as [TweetClaw](https://github.com/Xquik-dev/tweetclaw) and
-keep twitter-cli focused on local CLI actions.
+direct account actions. For repeatable API, monitor, webhook, media workflow,
+or giveaway draw jobs, use a dedicated companion workflow and keep twitter-cli
+focused on local CLI actions.
 
 Treat browser cookies, `TWITTER_AUTH_TOKEN`, `TWITTER_CT0`, and full cookie
 strings like passwords. Do not paste them into issues, chat logs, screenshots,
